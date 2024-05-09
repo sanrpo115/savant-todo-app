@@ -1,30 +1,41 @@
 # React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+# Savant Prueba Técnica Frontend - React & Typescript
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este repositorio contiene el código fuente FrontEnd a la solución a una prueba técnica diseñada por Savant, el proyecto se realizó en lenguaje Javavascript utilizando la librería de ReactJS + Typescript + Vite 
 
-## Expanding the ESLint configuration
+Utiliza React 18 y npm 18.17.1 para la construcción y gestión de dependencias, el proyecto fue realizado por Santiago Restrepo Gallego.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
+## Stack 
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+**Client:** React, Typescript, SASS
+
+
+## Requisitos
+
+- NodeJS 18.17.1
+- React 18
+- NPM 10.7.0
+
+## Ejecución Local
+
+- Clona el repositorio 
+```bash
+  git clone https://github.com/sanrpo115/savant-todo-app
 ```
+- Dirigete al directorio del proyecto
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+```bash
+  cd savant-todo-app
+```
+- Instalar modulos y dependencias del proyecto
+```bash
+  npm install
+```
+- Ejecutar proyecto en ambiente de desarrollo
+```bash
+  npm run dev
+```
+- Abrir la ruta [http://localhost:5173](http://localhost:5173) para visualizarlo en el navegador.

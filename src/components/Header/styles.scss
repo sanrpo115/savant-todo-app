@@ -1,0 +1,17 @@
+@import "../../assets/scss/variables";
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  .date {
+    &:first-letter {
+      text-transform: capitalize;
+    }
+    font-size: 40px;
+    font-weight: 700;
+    color: $dc-950;
+    margin-bottom: 30px;
+  }
+}

@@ -1,11 +1,16 @@
 import './App.scss'
+import { TaskAppProvider } from './context/context'
+import { useTask } from './hooks/useTask';
+import Layout from './layout/Layout'
 
-function App() {
+const App: React.FC = () => {
+
+  const context = useTask();
 
   return (
-    <>
-      
-    </>
+    <TaskAppProvider value={context}>
+      <Layout />
+    </TaskAppProvider>
   )
 }
 

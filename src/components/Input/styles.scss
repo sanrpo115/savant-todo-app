@@ -1,0 +1,50 @@
+@import "../../assets/scss/variables";
+
+.add-task {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: $c-white;
+  width: 100%;
+  height: 70px;
+  border-radius: 10px;
+  padding: 6px;
+  max-width: 800px;
+  box-shadow: 0px 10px 15px 5px rgba(0, 0, 0, 0.05);
+  button {
+    &.btn-primary {
+      border: none;
+      background-color: #efefef;
+      font-family: $f-ppal;
+      color: $dc-950;
+      font-weight: 700;
+      font-size: 18px;
+      border-radius: 10px;
+      width: 120px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      .btn-primary__icon {
+        &::after {
+          content: '+';
+          // display: block;
+          font-size: 27px;
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+  input {
+    &.input-text {
+      border: none;
+      background-color: transparent;
+      width: 100%;
+      font-family: $f-ppal;
+      font-size: 23px;
+      padding-left: 15px;
+      &:focus-visible {
+        outline: none;
+      }
+    }
+  }
+}
