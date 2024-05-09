@@ -5,7 +5,7 @@
 
 Este repositorio contiene el código fuente FrontEnd a la solución a una prueba técnica diseñada por Savant, el proyecto se realizó en lenguaje Javavascript utilizando la librería de ReactJS + Typescript + Vite 
 
-Utiliza React 18 y npm 18.17.1 para la construcción y gestión de dependencias, el proyecto fue realizado por Santiago Restrepo Gallego.
+Utiliza React 18 y node 18.17.1 para la construcción y gestión de dependencias, el proyecto fue realizado por Santiago Restrepo Gallego.
 
 
 ## Stack 
